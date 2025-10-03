@@ -5,7 +5,7 @@ bitexpert_sylius_forcelogin_admin_whitelist_entry_index:
     templates: "@SyliusAdmin\\shared\\crud"
     except: ['show']
     redirect: update
-    grid: bitexpert_sylius_forcelogin_whitelist_entity
+    grid: "BitExpert\\SyliusForceCustomerLoginPlugin\\Grid\\WhitelistEntryGrid"
     form:
         type: BitExpert\SyliusForceCustomerLoginPlugin\Form\Type\WhitelistEntryType
   type: sylius.resource
