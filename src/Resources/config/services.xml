@@ -4,6 +4,7 @@
     <imports>
         <import resource="services/doctrine.xml" />
         <import resource="services/form.xml" />
+        <import resource="services/grid.xml" />
         <import resource="services/menus.xml" />
         <import resource="services/security.xml" />
         <import resource="services/strategies.xml" />
